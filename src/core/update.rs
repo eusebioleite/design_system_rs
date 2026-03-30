@@ -1,6 +1,6 @@
-use iced::window;
 use crate::core::message::Message;
 use crate::core::state::State;
+use iced::window;
 
 pub fn handle(_state: &mut State, message: Message) -> iced::Task<Message> {
     match message {

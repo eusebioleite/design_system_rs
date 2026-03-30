@@ -1,13 +1,12 @@
 mod core;
 mod ui;
-mod update;
 
 use iced::{window, Theme};
 
 use crate::core::state::State;
+use crate::core::update;
 
 pub fn main() -> iced::Result {
-
     // Parâmetros da janela
     let window_settings = window::Settings {
         size: iced::Size::new(320.0, 180.0),

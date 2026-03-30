@@ -8,5 +8,5 @@ pub fn render<'a>() -> Element<'a, Message> {
         .width(Length::Fill)
         .height(Length::Fill)
         .center_x(Length::Fill)
-    .into()
+        .into()
 }
